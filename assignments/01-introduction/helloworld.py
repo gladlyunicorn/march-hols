@@ -13,8 +13,13 @@ output = [
 	"This is the first step to programming.",
 	"Feel free to edit this file and try stuff out."
 ]
+<<<<<<< HEAD
 your_name=raw_input("hello what is your name")
 
 
 print("\n".join(output))
 
+=======
+
+print("\n".join(output))
+>>>>>>> parent of 5dfe7d2... GA1 submission
