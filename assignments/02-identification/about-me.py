@@ -8,16 +8,16 @@ print("This gets printed into console")
 
 # Now we need to create some variables.
 # Create a variable called "name" and assign it your own name as a string.
-
+my_name="Gladys"
 
 # Create a variable called "age" and assign it your own age as an integer.
-
+age=17
 
 # Create a variable called "coolness" and give it a float.
-
+coolness=0.0
 
 # Create a variable called "likes_arnold" and give it a boolean.
-
+likes_arnold=True
 
 
 
@@ -39,10 +39,10 @@ elif coolness > 50.0:
 elif coolness > 25.0:
 	cool_index = "Kinda Sick"
 
-padding = max(map(lambda x: len(str(x)) + 10, [name, cool_index]))
+padding = max(map(lambda x: len(str(x)) + 10, [my_name, cool_index]))
 
 output = [
-	"| Name: " + name,
+	"| Name: " + my_name,
 	"| Age: " + str(age),
 	"| Rating: " + str(cool_index)
 ]
