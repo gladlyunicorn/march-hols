@@ -14,4 +14,8 @@ output = [
 	"Feel free to edit this file and try stuff out."
 ]
 
+your_name=raw_input("hello what is your name")
+
+
 print("\n".join(output))
+
